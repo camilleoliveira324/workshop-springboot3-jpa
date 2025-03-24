@@ -62,6 +62,7 @@ public class OrderItem implements Serializable {
         this.price = price;
     }
 
+    
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
